@@ -5,5 +5,4 @@ out
 gen
 .DS_Store
 
-dist
 node_modules
