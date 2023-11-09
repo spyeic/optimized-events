@@ -2,9 +2,16 @@
   "name": "optimized-events",
   "version": "1.0.0",
   "description": "Optimized events for browser runtime",
-  "main": "src/main.ts",
+  "main": "src/index.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
   "scripts": {
     "build": "tsc",
+    "bundle": "rollup --config",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,12 +22,13 @@
   "author": "spyeic",
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.5",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
     "eslint": "^8.53.0",
+    "eslint-plugin-import": "^2.29.0",
+    "rollup": "^4.3.0",
+    "tslib": "^2.6.2",
     "typescript": "^5.2.2"
-  },
-  "dependencies": {
-    "eslint-plugin-import": "^2.29.0"
   }
 }
