@@ -2,7 +2,8 @@
   "name": "optimized-events",
   "version": "1.0.0",
   "description": "Optimized events for browser runtime",
-  "main": "src/index.ts",
+  "main": "./dist/index.js",
+  "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/index.js",
@@ -20,6 +21,7 @@
     "browser"
   ],
   "author": "spyeic",
+  "repository": "github:spyeic/optimized-events",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.5",
