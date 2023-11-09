@@ -1,6 +1,6 @@
 {
   "name": "optimized-events",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Optimized events for browser runtime",
   "main": "./dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,7 +21,10 @@
     "browser"
   ],
   "author": "spyeic",
-  "repository": "github:spyeic/optimized-events",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spyeic/optimized-events.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.5",
