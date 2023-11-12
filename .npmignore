@@ -6,7 +6,7 @@ src/
 node_modules/
 .git/
 
-.eslintrc.js
+.eslintrc.cjs
 .gitignore
 rollup.config.js
 tsconfig.json

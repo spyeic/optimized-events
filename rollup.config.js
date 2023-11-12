@@ -14,7 +14,12 @@ export default {
         }
     ],
     plugins: [
-        typescript(),
+        typescript({
+            compilerOptions: {
+                declaration: false,
+                emitDeclarationOnly: false
+            }
+        }),
         commonjs()
     ]
 };
