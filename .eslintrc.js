@@ -4,6 +4,7 @@ module.exports = {
         "es2021": true,
         "node": true
     },
+    "ignorePatterns": ["./dist/**.*"],
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
@@ -24,7 +25,10 @@ module.exports = {
             "error",
             4
         ],
-        "linebreak-style": "off",
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
         "quotes": [
             "error",
             "double"
