@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "optimized-events",
   "version": "1.0.2",
   "description": "Optimized events for browser runtime",
@@ -27,6 +28,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-typescript": "^11.1.5",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
