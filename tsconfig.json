@@ -7,7 +7,7 @@
         "sourceMap": false,
         "declaration": true,
         "emitDeclarationOnly": true,
-        "outDir": "dist",
+        "outDir": "types",
         "lib": [
             "dom",
             "es5",
