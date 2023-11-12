@@ -8,5 +8,5 @@ node_modules/
 
 .eslintrc.js
 .gitignore
-rollup.config.mjs
+rollup.config.js
 tsconfig.json
