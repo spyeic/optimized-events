@@ -1,6 +1,6 @@
 module.exports = {
     ignorePatterns: ["/dist", "/types"],
     extends: [
-        "spyeic/ts"
+        "spyeic/typescript"
     ]
 };
